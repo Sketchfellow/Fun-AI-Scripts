@@ -24,8 +24,8 @@ Before you can use this script, make sure you have the following:
 1. **Place the Script:** Put the Python script (`GeminiSentimentAnalysis.py`) in a folder where you can easily access it.
 2. **Prepare Your Data:** Ensure your CSV file is in the same folder as the script or in a location you can easily specify.
 3. **Configure the Script:**
-    *   **API Key:** Open the `GeminiSentimentAnalysis.py` file in a text editor. Replace `"Insert-API-Key"` on line 21 with your actual Gemini API key. Keep the quotation marks.
-    *   **Sentiment Column:** Find the line `sentimentColumn = 0` (around line 10). Change `0` to the index of the column in your CSV that contains the text you want analyzed. Remember that the first column is index 0, the second is 1, and so on.
+    *   **API Key:** Open the `GeminiSentimentAnalysis.py` file in a text editor. Replace `"Insert-API-Key"` on line 18 with your actual Gemini API key. Keep the quotation marks.
+    *   **Sentiment Column:** Find the variable definition `sentimentColumn = 0` at line 7. Change `0` to the index of the column in your CSV that contains the text you want analyzed. Remember that the first column is index 0, the second is 1, and so on.
 4. **Run the Script:**
     *   Open your terminal or command prompt.
     *   Navigate to the folder where you placed the script using the `cd` command. For example:
