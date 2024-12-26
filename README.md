@@ -9,8 +9,8 @@ Fun AI scripts are a collection of scripts that I made for fun using the Gemini 
 
 ## Prerequisites:
 
-- Python 3.9+ to use Gemini  
-- Install google-generativeai Python library
+- Python 3.9+ to use Gemini. If you don't have it, download and install it from [python.org](https://www.python.org/).   
+- Install google-generativeai Python library using pip on your terminal:
   ```bash
   pip install -q -U google-generativeai
   ```  
@@ -18,5 +18,6 @@ Fun AI scripts are a collection of scripts that I made for fun using the Gemini 
 
 ## Usage:
 
-- Most of these scripts require you to edit some of the code.  
-  - The sentiment analysis script requires you to change the value of the `sentimentColumn` variable to the correct index of the column you want to perform sentiment analysis on.  
+- Most of these scripts require you to edit some of the code.
+- The main edit is providing your Gemini API key within the script.
+- For more usage instructions, see the `README` contained within each subdirectory containg that script you want to use. 
