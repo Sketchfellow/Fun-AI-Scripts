@@ -19,18 +19,12 @@ Fun AI scripts are a collection of scripts that I made for fun using the Gemini 
 
 ## Usage:
 
-<<<<<<< HEAD
 Each script resides in its own subdirectory (e.g., `Scripts/Sentiment-Analysis/`) along with a dedicated README file.
 
 **General Setup:**
 
 1. **Navigate to a script's directory.**
-2. **Download script:** Download the python file of the script you want to use and place it to a directory.
+2. **Download script:** Download the Python file of the script you want to use and place it to a directory.
 4. **Edit the script:** Open the `.py` file (e.g., `GeminiSentimentAnalysis.py`) in a text editor.
 5. **Provide your API Key:** Replace `"YOUR_API_KEY"` with your actual Gemini API key.
 6. **Before running the script:** Follow the detailed, step-by-step instructions in the script's individual `README.md` file. These will provide further important instructions.
-=======
-- Most of these scripts require you to edit some of the code.
-- The main edit is providing your Gemini API key within the script.
-- For more usage instructions, see the `README` contained within each subdirectory containing that script you want to use. 
->>>>>>> 6fdb0fccb3ce8bd18c9dad8b6d45563a04048267
