@@ -1,5 +1,7 @@
 # Gemini Audio Transcription and Translation Script
 
+Do you ever have an audio spoken in another language that you wished you understood? Well this script is for you!
+
 This script utilizes Google Gemini's multimodal capabilities to transcribe audio from a file and then translate the resulting transcript into another language.
 
 ## What it does
