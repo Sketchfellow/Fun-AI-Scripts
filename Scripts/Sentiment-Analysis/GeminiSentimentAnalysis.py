@@ -27,9 +27,9 @@ def analyze(prompt):
     Returns:
         The sentiment score as a string, or "N/A" if an error occurred.
     """
-    # flash 8B is fast, has higher rate limits, and is smart enough. Model may be deprecated in the future.
+    # flash-lite is fast, has higher rate limits, and is smart enough. Model may be deprecated in the future.
     model = genai.GenerativeModel(
-        model_name = 'gemini-1.5-flash-8b',
+        model_name = 'gemini-2.0-flash-lite',
         system_instruction = systemPrompt) 
 
     try:
@@ -57,7 +57,8 @@ with open(input_file_path, mode='r', newline='') as file:
         else:
             sentimentText = row[sentimentColumn]
             response = analyze(sentimentText)
-            time.sleep(1) # Sleep for x seconds. Used for potential rate limits if you're a free user
+            time.sleep(2) # Sleep for x seconds. Used for potential rate limits if you're a free user
+            # check documentation for rate limits. 2.0 flash-lite has 30 requests per minute and 1500 requests per day for free plan.
             # for large datasets you should use a paid plan. 
 
             try:

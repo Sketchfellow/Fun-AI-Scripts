@@ -51,7 +51,7 @@ The script will add a new column named "AI-Sentiment" to your CSV. The values in
 
 *   **Rate Limits:** If you're using the free Gemini API plan, there might be limits on how many requests you can make in a certain time. The script includes a 1-second pause between each request to help avoid hitting these limits, but for very large datasets, you might need to use a paid plan or modify the script to handle rate limiting in a more sophisticated manner.
 *   **Error Handling:** The script has basic error handling. If there's a problem with the API or the data, it will try to print an error message and continue. It will also mark the row with "N/A" in the output file.
-*   **Model:** The model used in this script is `gemini-1.5-flash-8b`. It's possible that in the future, this model may be deprecated. If that happens, you'll need to update the `model_name` variable in the script to a different Gemini model.
+*   **Model:** The model used in this script is `gemini-2.0-flash-lite`. It's possible that in the future, this model may be deprecated. If that happens, you'll need to update the `model_name` variable in the script to a different Gemini model.
 
 ## Troubleshooting
 
